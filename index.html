@@ -6,28 +6,35 @@
 </head>
 <body>
   <div>
-    <div>
+    <div class="top_bar">
       <ul>
-      <li><a href="plus.google.com">+You</a></li>
-      <li><a href="www.gmail.com">Gmail</a></li>
-      <li><a href="images.google.com">Images</a></li>
       <li><form><input type="submit" value="Sign In"></form></li>
+      <li><a href="apps.google.com">Box</a></li>
+      <li><a href="images.google.com">Images</a></li>
+      <li><a href="www.gmail.com">Gmail</a></li>
+      <li><a href="plus.google.com">+You</a></li>
       </ul>
     </div>
 
-    <div>
-      <img src="https://www.google.com/images/srpr/logo11w.png"></img>
-    </div>  
-    <br/>
-    <div>
-      <form>
-      <input type="text" name="Search">
+    <div class="center">
+      <div class="logo">
+        <center>
+          <img id ="logo" src="https://www.google.com/images/srpr/logo11w.png"></img>
+        </center>
+      </div>  
       <br/>
-      <input type="submit" value="Google Search">
-      <input type="submit" value="I'm Feeling Lucky">
-      </form>
+      <div class="box">
+        <form>
+        <input id ="box" type="text" name="Search">
+        <br/>
+        <div class="sub">
+          <input id ="sub1" type="submit" value="Google Search">
+          <input id ="sub2" type="submit" value="I'm Feeling Lucky">
+        </div>
+        </form>
+      </div>
     </div>
-    <div>
+    <div class="bottom_bar">
       <ul>
       <li><a href="advertising.google.com">Advertising</a></li>
       <li><a href="business.google.com">Business</a></li>
