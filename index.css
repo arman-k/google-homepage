@@ -1,3 +1,8 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
 div.top_bar {
 	min-width: 237px;
 	float: right;
@@ -41,6 +46,7 @@ a:hover {
 }
 
 div.logo {
+	white-space: nowrap;
 	width: 200;
 	height: 50;
 	padding: 100px;
@@ -49,13 +55,14 @@ div.logo {
 #logo {
 	width: 269px;
 	height: 95px;
-	padding: 70px 260px;
+	padding: 70px 270px;
 
 }
 
 div.box {
+	white-space: nowrap;
 	padding-top: 20px; 
-	padding-bottom: 100px;
+	padding-bottom: 20px;
 	padding-left: 250px;
 	padding-right: 250px;
 }
@@ -65,11 +72,89 @@ div.box {
 	border-color: none;
 	font-weight: 400;
 	line-height: 19.2px;
-	width: 466px;
+	width: 490px;
 	height: 25px;
 }
 
 div.sub {
-	padding: 50px 100px;
+	padding: 15px 130px;
+	vertical-align: middle;
 }
 
+#sub1, #sub2 {
+	font-family: arial, sans-serif;
+	margin-right: 6px;
+	margin-left: 6px;
+	border-width: 1px;
+	border-color: rgba(0, 0, 0, 0.1);
+	border-style: solid;
+	border-radius: 2px;
+	line-height: 27px;
+	text-align: center;
+	font-size: 11px;
+	color: #444;
+	font-weight: 700;
+	height: 29px;
+	background: rgb(245, 245, 245);
+}
+
+#sub1 {
+	width: 105px;;
+}
+
+#sub2 {
+	width: 120px;
+}
+
+div.bottom_bar {
+	bottom: 0;
+	display: block;
+	line-height: 40px;
+	background-color: rgb(245, 245, 245);
+	margin-left: -27px;
+	margin-right: 27px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 35px;
+	width: 100%;
+	height: 35px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	text-align: right;
+	position: absolute;
+	align-items: center;
+	vertical-align: middle;
+}
+
+ul.bottom_bar {
+	list-style-type: none;
+	overflow: none;
+	margin: 0;
+	padding: 15px;
+}
+
+#left {
+	display: inline-block;
+	float: left;
+	width: 200px;
+}
+
+#right {
+	display: inline-block;
+	float: right;
+	width: 400px;
+}
+
+a.bottom_bar {
+	text-decoration: none;
+	color: #404040;	
+	display: inline-block;
+	line-height: 24px;
+	text-align: right;
+	vertical-align: middle;
+	outline: medium none;
+	margin: 100px;
+	padding-right: 10px;
+	width: 50px;
+	font: 13px;
+}
